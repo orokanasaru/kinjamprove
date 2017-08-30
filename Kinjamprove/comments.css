@@ -204,13 +204,17 @@ article[depth="0"]:not([collapsed="true"]) > header > .avatar img {
 .reply--unapproved .reply__content, 
 .reply--unapproved .reply__publish-time, 
 .reply--unapproved .reply__tools {
-    opacity: 1.0;
+	opacity: 1.0;
 }
 
 .reply--unapproved .avatar img {
 	filter: none;
 }
 
+.reply--unapproved .blurable img {
+	filter: none;
+	opacity: 1.0;
+}
 
 a.kinjamprove-button {
 /* 	color: rgb(131, 209, 120); */
